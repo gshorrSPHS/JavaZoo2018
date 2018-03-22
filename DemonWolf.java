@@ -13,7 +13,7 @@ public final class DemonWolf extends Wolf
      */
     public DemonWolf()
     {
-        super(900000, "EvilBoi", "A savage dark boi with super speed. Embodiment of doom");
+        super(900000, "DarknessBoi", "A demon savage dark boi with super speed. Embodiment of doom");
     }
 
     public String hunt()
