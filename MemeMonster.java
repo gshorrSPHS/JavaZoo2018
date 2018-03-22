@@ -13,6 +13,12 @@ public class MemeMonster extends Animal implements Screech
      * Constructor for objects of class memeMonster
      */
     int memeLevel;
+    
+    public MemeMonster(int memeLevel)
+    {
+        super("Knuckles", "Ugandan");
+        this.memeLevel = memeLevel;
+    }
     public MemeMonster(String name, String description, int memeLevel)
     {
         super(name, description);
