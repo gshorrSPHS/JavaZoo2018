@@ -11,7 +11,9 @@ public class Panda extends Animal implements Running, Rap, Climbing
         "Pandas are found in China,and they are also called Panda bear");
    
     }
-    
+    public Panda(String name, String description){
+        super(name, description);
+    }
     @Override 
     public String play()
     {
