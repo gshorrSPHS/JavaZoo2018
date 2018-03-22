@@ -1,3 +1,4 @@
+///hello
 public class WizardAxolotl extends Axolotl implements Flying
 {
     private int power;
