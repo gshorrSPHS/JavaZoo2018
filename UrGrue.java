@@ -7,7 +7,6 @@
  */
 public final class UrGrue extends Grue
 {
-    // instance variables - replace the example below with your own
     
 
     /**
@@ -15,7 +14,7 @@ public final class UrGrue extends Grue
      */
     public UrGrue(int anger)
     {
-        // initialise instance variables
+       
        super("Ur-Grue", "An exceptionally stealthy grue wielding dark magic", anger*2);
         
     }
