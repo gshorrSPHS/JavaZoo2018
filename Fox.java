@@ -39,14 +39,12 @@ public class Fox extends Animal implements Running, Swimming
         return "The fox lets you pet it and playfully bites at your fingers.";
     }
     
-    @Override
-    public String running()
+    public String run()
     {
         return "The fox runs.";
     }
     
-    @Override
-    public String swimming()
+    public String swim()
     {
         return "The fox swims.";
     }
