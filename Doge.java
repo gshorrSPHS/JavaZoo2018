@@ -1,23 +1,30 @@
-public class Doge extends Animal implements running
+public class Doge extends Animal implements Running
 {
-    public Doge(String name, String description, int cuteness)
+    public Doge()
     {
-        super("Jeff", "Shiba inu");
-        this.cuteness = cuteness;
+        super("Doge", "Shiba inu");
     } 
-    public Doge(int cuteness, String name, String desc)
+    public Doge(String name, String desc)
     {
         super(name, desc);
-        this.cuteness = cuteness;
     }
     @Override
-    public String play(String toy)
+    public String play()
     {
-        return "eats " + toy;
+        return "eats a toy";
     }
-}
-    public String runs()
+    public String run()
     {
-    return "nyoom"
+        return "nyoom";
     }
+    public String makeNoise()
+    {
+        return "much wow";
+    }
+        public String eat()
+    {
+        return "eats";
+    }
+    
 }
+
