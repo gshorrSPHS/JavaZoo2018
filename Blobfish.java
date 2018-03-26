@@ -27,7 +27,7 @@ public class Blobfish extends Animal implements Swimming
     }
     @Override
     public String swim(){
-        return "blobsifh float, they do not swim, wikipedia said so";
+        return "blobfish float, they do not swim, wikipedia said so";
     }
 }
 
