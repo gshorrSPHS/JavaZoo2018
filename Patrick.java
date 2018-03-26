@@ -14,11 +14,18 @@ public class Patrick extends MemeMonster
     /**
      * Constructor for objects of class Patrick
      */
-    public Patrick(String name, String description, int memeLevel, int pinkness, int trigger)
+    public Patrick( int pinkness, int trigger)
     {
-       super(name, description, memeLevel);
+       super("Patrick", "pink fat star", 1000);
        this.pinkness = pinkness;
        this.trigger = trigger;
+    }
+    
+    public Patrick(String name, String description, int memeLevel,int pinkness, int trigger)
+    {
+        super(name, description, memeLevel);
+        this.pinkness = pinkness;
+        this.trigger =trigger;
     }
 
     /**
