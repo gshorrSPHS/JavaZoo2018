@@ -1,18 +1,19 @@
 public class Pikachu extends Animal  implements Running
 {
     // instance variables - replace the example below with your own
-    private String type;
     /**
      * Constructor for objects of class Pikachu
      */
-    public Pikachu(String type)
+    public Pikachu()
     {
-        super("Pikachu", "This " + type + " Pokémon has electricity-storing pouches on its cheeks.\n" +
+        super("Pikachu", "This Pokémon has electricity-storing pouches on its cheeks.\n" +
                " These appear to become electrically charged during the night while Pikachu sleeps.\n" +
                " It occasionally discharges electricity when it is dozy after waking up.");
-        this.type = type;
     }
-
+    public Pikachu(String name, String description){
+        super(name, description);
+        
+    }
     /**
      * An example of a method - replace this comment with your own
      *
