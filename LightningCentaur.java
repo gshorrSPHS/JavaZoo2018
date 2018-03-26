@@ -1,8 +1,10 @@
 public class LightningCentaur extends Centaur
 {
-    public LightningCentaur()
+    int bolt;
+    public LightningCentaur(int bolt)
     {
-        super(20, 20, 30,  "Lido", "This centaur can eject lightning bolts");
+        super(20, 20, "Lido", "This centaur can eject lightning bolts");
+        this.bolt = bolt;
     }
     
     @Override

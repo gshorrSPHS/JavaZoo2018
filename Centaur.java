@@ -10,12 +10,11 @@ public class Centaur extends Animal implements Running
         this.speed = speed;
     }
     
-    public Centaur(int strength, int speed, int bolts, String name, String description)
+    public Centaur(int strength, int speed, String name, String description)
     {
         super(name, description);
         this.strength = strength;
         this.speed = speed;
-        this.bolts = bolts;
     }
 
     public String run()
