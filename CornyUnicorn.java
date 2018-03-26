@@ -45,7 +45,7 @@ public class CornyUnicorn extends Animal implements Running,Swimming,Flying
     public String run()
     {
         return "It runs as quickly as its little legs can\n" +
-               "carry it, trailing soy sauce puddles behind.";
+               "carry it, trailing corn sauce puddles behind.";
     }
      
     @Override
