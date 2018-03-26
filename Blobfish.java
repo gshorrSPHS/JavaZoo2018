@@ -8,9 +8,13 @@ public class Blobfish extends Animal implements Swimming
         super("blob","the builder");
         this.hunger = hunger;
     }
+    public Blobfish(int hunger, String name, String desc){
+        super(name, desc);
+        this.hunger = hunger;
+    }
     @Override
     public String makeNoise(){
-        return "it unters a resounding roar ... but no one notices";
+        return "it uters a resounding roar ... but no one notices";
     }
     @Override
     public String eat(){
@@ -26,3 +30,4 @@ public class Blobfish extends Animal implements Swimming
         return "blobsifh float, they do not swim, wikipedia said so";
     }
 }
+
